@@ -30,19 +30,20 @@ Make sure you have the following installed on your machine:
 3. Layout and Components: The EJS files in views/ control the blog's layout and components. You can modify them to adjust the blog's appearance.
 
 ## Project Structure
-├── app.js
-├── public/
-│ ├── styles.css
-│ └── ...
-└── views/
-├── partials/
-│ ├── footer.ejs
-│ ├── header.ejs
-│ └── ...
-├── home.ejs
-├── post.ejs
-└── ...
-  
+.
+├── app.js  
+├── public/  
+│   ├── styles.css  
+│   └── ...  
+└── views/  
+    ├── partials/  
+    │   ├── footer.ejs  
+    │   ├── header.ejs  
+    │   └── ...  
+    ├── home.ejs  
+    ├── post.ejs  
+    └── ...  
+
 1. app.js: The main file that starts the server and configures the routes.
 2. public/: The directory that contains static files like CSS, JavaScript, and images.
 3. views/: The directory that contains the EJS files that control the blog's views.
