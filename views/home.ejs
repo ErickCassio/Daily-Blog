@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  <h2 class="mb-3">Home</h2>
+  <p><%= startingContent %></p>
+</div>
+<% pageContent.forEach(element => { %>
+<div class="container mb-3">
+  <h3 class="mb-2"><%= element.postTitle %></h3>
+  <% let truncatedString = element.postContent.substring(0, 100) + "..."; %>
+  <p class="d-inline"><%= truncatedString %></p>
+  <a class="text-decoration-none p-1" href="/posts/<%= element.postTitle %>"
+    >Read More</a
+  >
+</div>
+<% }) %> <%-include('partials/footer') %>
