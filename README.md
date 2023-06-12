@@ -32,16 +32,16 @@ Make sure you have the following installed on your machine:
 ## Project Structure
 ├── app.js
 ├── public/
-│   ├── styles.css
-│   └── ...
+│ ├── styles.css
+│ └── ...
 └── views/
-    ├── partials/
-    │   ├── footer.ejs
-    │   ├── header.ejs
-    │   └── ...
-    ├── home.ejs
-    ├── post.ejs
-    └── ...
+├── partials/
+│ ├── footer.ejs
+│ ├── header.ejs
+│ └── ...
+├── home.ejs
+├── post.ejs
+└── ...
   
 1. app.js: The main file that starts the server and configures the routes.
 2. public/: The directory that contains static files like CSS, JavaScript, and images.
